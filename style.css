@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-nav{
+    display: block;
+    background-color: #ffffff;
+    font-size: 14px;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.bottom-nav a{
+    text-decoration: none;
+    color: #103755;
+}
+
+.navbar .container .container-fluid{
+    width: 1000px;
+}
+
+.navbar .container .container-fluid a{
+    margin: auto;
+}
+
+.navbar img{
+    width: 150px !important;
+    min-width: 100px;
+}
+
+.navbar form{
+    max-width: 700px !important;
+    height: 40px;
+    margin-left: 40px;
+}
+
+.navbar form button{
+    width: 80px;
+}
+
+.cart-number{
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 50%;
+    padding: 0 5px;
+    margin-left: -5px;
+}
+
+.tooltip{
+    position: relative;
+    font-size: 16px;
+    display: inline-block;
+    opacity: 1;
+}
+  
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: 300px;
+    color: #707B8E;
+    background-color: #ffffff;
+    padding: 20px 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    right: 30%;
+}
+  
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+
+.tooltip .tooltiptext a{
+    color: #707B8E;
+    margin-left: 25%;
+}
+
+.tooltip .tooltiptext a:hover{
+    color: #000000;
+}
+
+.dropdown-nav{
+    width: 100%;
+    background-color: #103755;
+}
+
+.dropdown-nav .container{
+    padding-left: 65px;
+}
+
+.dropbtn{
+    color: #ffffff;
+    font-size: 14px;
+    margin-right: 9px;
+}
+
+.dropdown, .dropleft, .sub-dropleft{
+    position: relative;
+    display: inline-block;
+}
+
+.dropleft, .sub-dropleft{
+    width: 100%;
+}
+  
+.dropdown-menu, .dropleft-menu, .sub-dropleft-menu, .last-dropdown-menu{
+    display: none;
+    background-color: #ffffff;
+    border-radius: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+
+.dropdown-menu{
+    min-width: 200px;
+    position: absolute;
+    top: 36px;
+}
+
+.dropleft-menu{
+    min-width: 220px;
+    position: absolute;
+    left: 198px;
+    top: -8px;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.sub-dropleft-menu{
+    min-width: 220px;
+    position: absolute;
+    left: 220px;
+    top: -10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.last-dropdown-menu{
+    min-width: 220px;
+    position: absolute;
+    right: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+  
+.dropdown-item{
+    color: black;
+    font-size: 14px;
+    color: #707B8E;
+    padding: 5px 10px;
+    display: block;
+}
+
+.dropdown-item svg{
+    float: right;
+    margin-top: 5px;
+}
+  
+.dropdown:hover .dropdown-menu, .dropleft:hover .dropleft-menu, .sub-dropleft:hover .sub-dropleft-menu, .dropdown:hover .last-dropdown-menu{
+    display: block;
+}
+
+.dropbtn:hover, .dropdown-item:hover{
+    color: #FFC60B;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: #ffffff;
+}
+
+
+/* carousel */
+.carousel{
+    max-height: 400px;
+    margin-top: -9px;
+}
+
+.carousel-item img{
+    width: 100%;
+    max-height: 400px;
+}
+
+
+/* feature lists */
+.feature-list{
+    background-color: #F8F8FA;
+    margin-top: -16px;
+    padding-top: 40px;
+}
+
+/* top picks */
+.row div{
+    margin: 0;
+    padding: 5px;
+}
+
+.row div .topic{
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.row div .topic:hover{
+    color: #000000;
+}
+
+.row div .btn{
+    background-color: #103755;
+    float: right;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.row div .btn:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.row a{
+    text-decoration: none;
+    color: #707B8E;
+}
+
+.card{
+    height: 100%;
+    text-align: center;
+    border-radius: 0;
+    border: none;
+}
+
+.discount-percent{
+    color: #ffffff;
+    font-size: 12px;
+    background-color: rgb(73, 172, 73);
+    width: 50px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.card img{
+    width: 65%;
+    padding: 10px 0;
+    margin: auto;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.card:hover{
+    box-shadow: 0 2px 4px 0 rgba(158, 155, 155, 0.19), 0 4px 10px 0 rgba(158, 155, 155, 0.19);
+}
+
+.card:hover img{
+    transform: scale(1.1, 1.2);
+}
+
+.card-title{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.discount{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #103755;
+}
+
+/* top picks collection */
+.sub-top-picks-collection{
+    overflow-x: auto;
+}
+
+.sub-top-picks-collection div div{
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.sub-top-picks-collection a img{
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.sub-top-picks-collection a img:hover{
+    transform: scale(1.1, 1.2);
+}
+
+/* accessories */
+.accessories img{
+    width: 100%;
+}
+
+/* fashion, beauty and health, liquors, made in nepal*/
+.control{
+    width: 20px;
+    padding: 0;
+}
+
+.control a{
+    text-decoration: none;
+    color: #707B8E;
+}
+
+sub{
+    bottom: unset;
+}
+
+/* just for you */
+.just-for-you .row p{
+    color: #707B8E;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.just-for-you a{
+    text-decoration: none;
+    color: #707B8E;
+}
+
+.load-button{
+    text-align: center;
+}
+
+.load-button a{
+    text-decoration: none;
+    color: #103755;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 3px 30px;
+}
+
+
+/* footer */
+.contacts{
+    background-color: #EEEEEE;
+    color: #707B8E;
+    font-size: 15px;
+}
+
+.googleplay img, .appstore img{
+    width: 150px;
+}
+
+.contact-head{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.list-group{
+    --bs-list-group-bg: none;
+    --bs-list-group-border-color: none;
+    --bs-list-group-item-padding-x: 0;
+    --bs-list-group-item-padding-y: 3px;
+}
+
+.contacts .list-group li a{
+    text-decoration: none;
+    color: #707B8E;
+}
+
+.contacts .list-group li a:hover, .sitemap .list-group li a:hover{
+    color: #FFC60B;
+}
+
+.contacts .contact-us li a:hover{
+    color: #707B8E;
+}
+
+.sitemap{
+    background-color: #212529;
+    color: #878787;
+    font-size: 15px;
+    border-top: 2px dotted #ffffff;
+    margin-bottom: 50px;
+}
+
+.sitemap-head{
+    font-size: 20px;
+    font-weight: 800;
+    color: #EEEEEE;
+    margin-bottom: 0;
+}
+
+.sitemap .list-group li a{
+    text-decoration: none;
+    color: #878787;
+}
+
+.digital-pay img{
+    width: 80px;
+}
+
+
+
+
+@media only screen and (min-width: 990px){
+    .bottom-nav{
+        display: none;
+    }
+
+    .just-for-you .container .row{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+
+    .sitemap{
+        margin-bottom: 0;
+    }
+}
