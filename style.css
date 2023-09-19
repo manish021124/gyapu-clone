@@ -12,12 +12,22 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+    border-top: 1px solid #e0e0e0;
     z-index: 2;
 }
 
 .bottom-nav a{
     text-decoration: none;
     color: #103755;
+}
+
+.navbar{
+    width: 100%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+    background-color: #ffffff;
+    z-index: 2;
 }
 
 .navbar .container .container-fluid{
@@ -87,6 +97,7 @@
 .dropdown-nav{
     width: 100%;
     background-color: #103755;
+    z-index: 2;
 }
 
 .dropdown-nav .container{
@@ -99,7 +110,9 @@
     margin-right: 9px;
 }
 
-.dropdown, .dropleft, .sub-dropleft{
+.dropdown, 
+.dropleft, 
+.sub-dropleft{
     position: relative;
     display: inline-block;
 }
@@ -108,7 +121,10 @@
     width: 100%;
 }
   
-.dropdown-menu, .dropleft-menu, .sub-dropleft-menu, .last-dropdown-menu{
+.dropdown-menu, 
+.dropleft-menu, 
+.sub-dropleft-menu, 
+.last-dropdown-menu{
     display: none;
     background-color: #ffffff;
     border-radius: 0;
@@ -164,7 +180,10 @@
     margin-top: 5px;
 }
   
-.dropdown:hover .dropdown-menu, .dropleft:hover .dropleft-menu, .sub-dropleft:hover .sub-dropleft-menu, .dropdown:hover .last-dropdown-menu{
+.dropdown:hover .dropdown-menu, 
+.dropleft:hover .dropleft-menu, 
+.sub-dropleft:hover .sub-dropleft-menu, 
+.dropdown:hover .last-dropdown-menu{
     display: block;
 }
 
@@ -339,7 +358,9 @@
     cursor: pointer;
 }
 
-.slider, .slick-list, .slick-track{
+.slider, 
+.slick-list, 
+.slick-track{
     height: 96%;
     padding: 0 !important;
 }
@@ -377,7 +398,8 @@
     font-size: 15px;
 }
 
-.googleplay img, .appstore img{
+.googleplay img, 
+.appstore img{
     width: 150px;
 }
 
@@ -399,7 +421,8 @@
     color: #707B8E;
 }
 
-.contacts .list-group li a:hover, .sitemap .list-group li a:hover{
+.contacts .list-group li a:hover, 
+.sitemap .list-group li a:hover{
     color: #FFC60B;
 }
 
@@ -433,7 +456,7 @@
 
 
 
-
+/* for screen > 990px */
 @media only screen and (min-width: 990px){
     .bottom-nav{
         display: none;
@@ -446,5 +469,13 @@
 
     .sitemap{
         margin-bottom: 0;
+    }
+}
+
+/* for screen < 1200px */
+@media only screen and (max-width: 1200px){
+    .navbar{
+        padding-bottom: 10px;
+        border-bottom: 1px solid #e0e0e0;
     }
 }
