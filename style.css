@@ -323,16 +323,27 @@
 .control{
     width: 20px;
     padding: 0;
+    position: absolute;
+    top: 40%;
 }
 
-.control a{
-    text-decoration: none;
-    color: #707B8E;
+.prevarrow{
+    left: -30px;
 }
 
-sub{
-    bottom: unset;
+.nextarrow{
+    right: -15px;
 }
+
+.prevarrow, .nextarrow{
+    cursor: pointer;
+}
+
+.slider, .slick-list, .slick-track{
+    height: 96%;
+    padding: 0 !important;
+}
+
 
 /* just for you */
 .just-for-you .row p{

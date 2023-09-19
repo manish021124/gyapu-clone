@@ -7,6 +7,12 @@
     <title>Gyapu.com: Online Shopping site in Nepal</title>
     <link rel="shortcut icon" href="images/gyapu-logo.ico" type="ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -1673,13 +1679,6 @@
 
         <!-- fashion slider -->
         <div class="fashion my-3 d-flex justify-content-center">
-            <div class="control d-flex align-self-center d-none d-lg-block">
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-                    </svg>
-                </a>
-            </div>
             <div class="container m-0">
                 <div class="row">
                     <div class="col-6">
@@ -1690,7 +1689,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row slider">
                     <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                         <a href="#">
                             <div class="card">
@@ -1793,12 +1792,12 @@
                             </div>
                         </a>
                     </div>
-                    <!-- <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                         <a href="#">
                             <div class="card">
                                 <button type="button" class="discount-percent"></button>
                                 <div class="card-img d-flex align-items-center">
-                                    <img class="img-fluid" src="images/gyapu-logo.png" alt="Card image">
+                                    <img class="img-fluid" src="images/fashion/1.jpg" alt="Card image">
                                 </div>
                                 <div class="card-body">
                                     <h4 class="card-title">Talking Tom Cat</h4>
@@ -1815,7 +1814,7 @@
                             <div class="card">
                                 <button type="button" class="discount-percent"></button>
                                 <div class="card-img d-flex align-items-center">
-                                    <img class="img-fluid" src="images/gyapu-logo.png" alt="Card image">
+                                    <img class="img-fluid" src="images/fashion/3.jpg" alt="Card image">
                                 </div>
                                 <div class="card-body">
                                     <h4 class="card-title">Pilot Adult Halloween Costume For Men</h4>
@@ -1826,15 +1825,8 @@
                                 </div>
                             </div>
                         </a>
-                    </div> -->
+                    </div>
                 </div>
-            </div>
-            <div class="control d-flex align-self-center d-none d-lg-block">
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                    </svg>
-                </a>
             </div>
         </div>
 
@@ -1849,13 +1841,6 @@
 
         <!-- beauty and health -->
         <div class="health my-3 d-flex justify-content-center">
-            <div class="control d-flex align-self-center d-none d-lg-block">
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-                    </svg>
-                </a>
-            </div>
             <div class="container m-0">
                 <div class="row">
                     <div class="col-6">
@@ -1866,7 +1851,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row slider">
                     <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                         <a href="#">
                             <div class="card">
@@ -1969,14 +1954,41 @@
                             </div>
                         </a>
                     </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-none d-lg-block">
+                        <a href="#">
+                            <div class="card">
+                                <button type="button" class="discount-percent">10% off</button>
+                                <div class="card-img d-flex align-items-center">
+                                    <img class="img-fluid" src="images/beauty/5.webp">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Pilot Adult Halloween Costume For Men</h4>
+                                    <p class="card-text">
+                                        <span class="discount">Rs. 1,000</span>
+                                        <span class="price">Rs. 4,500</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-none d-lg-block">
+                        <a href="#">
+                            <div class="card">
+                                <button type="button" class="discount-percent"></button>
+                                <div class="card-img d-flex align-items-center">
+                                    <img class="img-fluid" src="images/beauty/6.webp">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Talking Tom Cat</h4>
+                                    <p class="card-text">
+                                        <span class="discount"></span>
+                                        <span class="price">Rs. 4,500</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="control d-flex align-self-center d-none d-lg-block">
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                    </svg>
-                </a>
             </div>
         </div>
 
@@ -2022,13 +2034,6 @@
 
         <!-- liquors -->
         <div class="liquor my-3 d-flex justify-content-center">
-            <div class="control d-flex align-self-center d-none d-lg-block">
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-                    </svg>
-                </a>
-            </div>
             <div class="container m-0">
                 <div class="row">
                     <div class="col-6">
@@ -2039,7 +2044,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row slider">
                     <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                         <a href="#">
                             <div class="card">
@@ -2142,26 +2147,46 @@
                             </div>
                         </a>
                     </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-none d-lg-block">
+                        <a href="#">
+                            <div class="card">
+                                <button type="button" class="discount-percent">10% off</button>
+                                <div class="card-img d-flex align-items-center">
+                                    <img class="img-fluid" src="images/liquors/5.webp">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Pilot Adult Halloween Costume For Men</h4>
+                                    <p class="card-text">
+                                        <span class="discount">Rs. 1,000</span>
+                                        <span class="price">Rs. 4,500</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-none d-lg-block">
+                        <a href="#">
+                            <div class="card">
+                                <button type="button" class="discount-percent">10% off</button>
+                                <div class="card-img d-flex align-items-center">
+                                    <img class="img-fluid" src="images/liquors/5.webp">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Pilot Adult Halloween Costume For Men</h4>
+                                    <p class="card-text">
+                                        <span class="discount">Rs. 1,000</span>
+                                        <span class="price">Rs. 4,500</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="control d-flex align-self-center d-none d-lg-block">
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                    </svg>
-                </a>
             </div>
         </div>
 
         <!-- made in nepal -->
         <div class="health my-3 d-flex justify-content-center">
-            <div class="control d-flex align-self-center d-none d-lg-block">
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-                    </svg>
-                </a>
-            </div>
             <div class="container m-0">
                 <div class="row">
                     <div class="col-6">
@@ -2175,7 +2200,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row slider">
                     <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                         <a href="#">
                             <div class="card">
@@ -2278,14 +2303,41 @@
                             </div>
                         </a>
                     </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-none d-lg-block">
+                        <a href="#">
+                            <div class="card">
+                                <button type="button" class="discount-percent">10% off</button>
+                                <div class="card-img d-flex align-items-center">
+                                    <img class="img-fluid" src="images/made-in-nepal/5.webp">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Pilot Adult Halloween Costume For Men</h4>
+                                    <p class="card-text">
+                                        <span class="discount">Rs. 1,000</span>
+                                        <span class="price">Rs. 4,500</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-none d-lg-block">
+                        <a href="#">
+                            <div class="card">
+                                <button type="button" class="discount-percent"></button>
+                                <div class="card-img d-flex align-items-center">
+                                    <img class="img-fluid" src="images/made-in-nepal/6.webp">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Talking Tom Cat</h4>
+                                    <p class="card-text">
+                                        <span class="discount"></span>
+                                        <span class="price">Rs. 4,500</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="control d-flex align-self-center d-none d-lg-block">
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                    </svg>
-                </a>
             </div>
         </div>
 
@@ -2732,5 +2784,10 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
 </body>
 </html>
