@@ -1,7 +1,9 @@
 const toggleSwitch = document.getElementById("toggleswitch");
+const gyapuHead = document.getElementById("gyapu-head");
 
 window.onscroll = function () { scrollShowNavbar() };
 toggleSwitch.addEventListener('change', nightMode);
+// gyapuHead.addEventListener('change', nightMode);
 
 function scrollShowNavbar() {
   const nav = document.getElementById("secondNav");
@@ -17,4 +19,9 @@ function scrollShowNavbar() {
 
 function nightMode(){
   document.body.classList.toggle("nightmode");
+  if(document.body.classList == "nightmode")
+    gyapuHead.src = "images/gyapu-header-nightmode.svg";
+  else{
+    gyapuHead.src = "images/gyapu-header-lightmode.svg";
+  }
 }
