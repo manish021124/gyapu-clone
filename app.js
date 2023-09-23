@@ -3,7 +3,6 @@ const gyapuHead = document.getElementById("gyapu-head");
 
 window.onscroll = function () { scrollShowNavbar() };
 toggleSwitch.addEventListener('change', nightMode);
-// gyapuHead.addEventListener('change', nightMode);
 
 function scrollShowNavbar() {
   const nav = document.getElementById("secondNav");
