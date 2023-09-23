@@ -9,6 +9,7 @@
     --featureListBgColor: #F8F8FA;
     --cardBgColor: #ffffff;
     --contactsBgColor: #EEEEEE;
+    --toggleswitchBgColor: #CCC9C5;
     --textColor: #707B8E;
     --priceColor: #103755;
     --buttomnavColor: #103755;
@@ -27,6 +28,7 @@
     --featureListBgColor: #1E1D1D;
     --cardBgColor: #212529;
     --contactsBgColor: #212529;
+    --toggleswitchBgColor: #283141;
     --textColor: #BEC3CA;
     --priceColor: #ffffff;
     --buttomnavColor: #ffffff;
@@ -157,6 +159,32 @@
 
 .qrtooltiptext img{
     width: 150px;
+}
+
+.switch{
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+.switch .form-check-input{
+    font-size: 20px;
+    width: 45px;
+    background-color: var(--toggleswitchBgColor);
+    border: none;
+    cursor: pointer;
+}
+
+.switch .form-switch .form-check-input{
+    background-image: url("images/moon.svg");
+}
+
+.switch .form-switch .form-check-input:checked{
+    background-image: url("images/sun.svg");
+}
+
+.switch .form-check-input:focus{
+    border-color: transparent;
+    box-shadow: none;
 }
 
 /* ******************************************* */
