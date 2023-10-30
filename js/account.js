@@ -21,9 +21,9 @@ accordionLoginPwdImage.addEventListener("click", function () { togglePasswordVis
 function togglePasswordVisibility(input, image) {
   if (input.type === "password") {
     input.type = "text";
-    image.src = "/images/account/visibility.svg";
+    image.src = "images/account/visibility.svg";
   } else {
     input.type = "password";
-    image.src = "/images/account/visibility_off.svg";
+    image.src = "images/account/visibility_off.svg";
   }
 }
