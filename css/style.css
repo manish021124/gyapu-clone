@@ -175,11 +175,11 @@
 }
 
 .switch .form-switch .form-check-input{
-    background-image: url("/images/moon.svg");
+    background-image: url("images/moon.svg");
 }
 
 .switch .form-switch .form-check-input:checked{
-    background-image: url("/images/sun.svg");
+    background-image: url("images/sun.svg");
 }
 
 .switch .form-check-input:focus{
